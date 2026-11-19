@@ -7,7 +7,7 @@
     <meta name="description" content="Download GIS EEO 11.15 for Android.">
     <title>GIS EEO 11.15 for Android</title>
     <link rel="icon" href="gis-eeo.webp" type="image/webp">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=ts-preview">
   </head>
   <body>
     <main class="download" aria-labelledby="app-name">
@@ -24,6 +24,41 @@
           <li>Meters without EIC</li>
           <li>Personalized layer menu</li>
         </ul>
+      </section>
+      <section class="test stations" aria-labelledby="stations-heading">
+        <h2 id="stations-heading">Transformer stations</h2>
+        <p class="stations-caption">Banja Luka · Excel import trial</p>
+        <dl class="station-counts">
+          <div>
+            <dt>New stations added</dt>
+            <dd>4</dd>
+          </div>
+          <div>
+            <dt>Total after import</dt>
+            <dd>1,204</dd>
+          </div>
+        </dl>
+        <ul>
+          <li>3D map markers for different station types</li>
+          <li>Popup above the marker with details, photos and 360° view</li>
+        </ul>
+        <details class="station-preview">
+          <summary>Map and popup preview</summary>
+          <div class="preview-map">
+            <div class="preview-popup">
+              <strong>Example station</strong>
+              <span>MBTS · 630 kVA</span>
+              <div class="preview-tabs">
+                <span>Details</span><span>Photos</span><span>360°</span>
+              </div>
+              <dl>
+                <dt>Voltage</dt><dd>10/0.4 kV</dd>
+                <dt>Power</dt><dd>630 kVA</dd>
+              </dl>
+            </div>
+            <span class="preview-marker" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+        </details>
       </section>
     </main>
   </body>
